@@ -1,0 +1,21 @@
+main {
+    background-color: pink;
+}
+
+div.c1 {
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+}
+
+div#c2 {
+    height: 250px;
+    background-image: url('imagens/background001.jpg');
+    border: 5px solid black;
+}
+
+div#c5 {
+    height: 250px;
+    background-image: url('imagens/background002.jpg');
+    border: 5px solid black;
+}
