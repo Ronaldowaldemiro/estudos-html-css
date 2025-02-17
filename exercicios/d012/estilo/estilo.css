@@ -1,0 +1,99 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --fonte-padrao: 'comic sans ms', sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 150px;
+    padding: 50px;
+    margin-top: 0px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > p {
+    font-size: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+header > p > a {
+    color: white;
+    text-decoration: none;
+}
+
+.c1 {
+    background-color: white;
+    color: black;
+    padding: 25px;
+    margin: 10px;
+    height: 400px;
+    font-family: var(--fonte-padrao);
+    font-size: 2em;
+    text-align: left;
+}
+
+
+#c2 {
+    background-image: url("../imagens/background001.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 100px 0px 0px 29px;
+    height: 500px;
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 2.5em;
+}
+
+#c2 > p {
+    background-color: rgba(119, 136, 153, 0.205);
+    width: 38%;
+    padding: 3px;
+}
+
+#c5 {
+    background-image: url("../imagens/background002.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    padding: 100px 0px 0px 29px;
+    height: 500px;
+    text-align: left;
+    font-family: var(--fonte-padrao);
+    font-size: 2.5em;
+}
+
+#c5 > p {
+    background-color: rgba(38, 45, 51, 0.308);
+    width: 38%;
+    padding: 3px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer > p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.0em;
+    padding: 10px;
+}
+
+footer > p > a {
+    color : white;
+    text-decoration: none;
+    text-align: center;
+}
