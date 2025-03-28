@@ -9,16 +9,16 @@
             background-color: lightsalmon;
 
             display: flex;
-            flex-flow: row wrap;
-            align-content: flex-start;
-            height: 400px;
+            flex-flow: row nowrap;
         }
 
         .filho {
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            padding: 40px;
+            flex-basis: 300px;
+            flex-shrink: 1;
+            flex-grow: 0;
         }
     </style>
 </head>
@@ -27,15 +27,6 @@
         <div class="filho">A</div>
         <div class="filho">B</div>
         <div class="filho">C</div>
-        <div class="filho">D</div>
-        <div class="filho">E</div>
-        <div class="filho">F</div>
-        <div class="filho">G</div>
-        <div class="filho">H</div>
-        <div class="filho">I</div>
-        <div class="filho">J</div>
-        <div class="filho">K</div>
-        <div class="filho">L</div>
     </div>
 </body>
 </html>
